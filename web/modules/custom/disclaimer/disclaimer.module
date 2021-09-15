@@ -1,0 +1,5 @@
+<?php
+
+function disclaimer_entity_view_alter($entity, $context){
+ $a=2;
+}

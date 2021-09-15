@@ -41,7 +41,7 @@ private
 # earlier versions of Drupal are tracked in `community/PHP/`
 
 # Ignore paths that may contain user-generated content
-/web/sites/*/files
+#/web/sites/*/files
 /web/sites/*/public
 /web/sites/*/private
 /web/sites/*/files-public
