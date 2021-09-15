@@ -1,0 +1,12 @@
+uuid: 243dfd67-b5cb-48ab-866c-c520092dbf1c
+name: ''
+mail: ''
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en

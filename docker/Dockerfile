@@ -15,6 +15,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 	wget \
   netcat
 
+RUN docker-php-ext-install bcmath
+
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
 RUN a2enmod ssl && \
