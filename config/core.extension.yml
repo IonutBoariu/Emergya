@@ -8,6 +8,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  cookie_content_blocker: 0
   currency: 0
   dblog: 0
   editor: 0
