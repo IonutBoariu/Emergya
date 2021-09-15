@@ -35,7 +35,7 @@ chown www-data:www-data -R web
 cd web
 
 printf "\n- Import Configurations -\n\n";
-#drush config-import -y --partial
+drush config-import -y --partial
 
 printf "\n- Drush commands have finished processing -\n";
 

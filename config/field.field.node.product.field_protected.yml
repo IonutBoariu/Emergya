@@ -1,0 +1,23 @@
+uuid: af70c9d1-1e2e-4c8b-9a9b-bc8e142bd808
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_protected
+    - node.type.product
+id: node.product.field_protected
+field_name: field_protected
+entity_type: node
+bundle: product
+label: Protected
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
