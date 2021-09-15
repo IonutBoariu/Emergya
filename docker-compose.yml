@@ -15,7 +15,7 @@ services:
       - PHP_IDE_CONFIG=serverName=172.17.0.1
     depends_on:
       - db
-    image: emergya-drupal:0.1
+    image: ionutboariu/emergya-drupal:0.1
     ports:
       - "2443:443"
     volumes:
