@@ -1,4 +1,4 @@
-uuid: df693329-5d4b-4523-93b9-ee22ce527d7e
+uuid: f87f076e-c810-4059-b0a6-34afc1cbe855
 langcode: en
 status: true
 dependencies:
@@ -11,7 +11,7 @@ id: node.product.field_product_image
 field_name: field_product_image
 entity_type: node
 bundle: product
-label: Image
+label: 'Products Image'
 description: ''
 required: true
 translatable: false
@@ -20,7 +20,7 @@ default_value_callback: ''
 settings:
   file_directory: '[date:custom:Y]-[date:custom:m]'
   file_extensions: 'png gif jpg jpeg'
-  max_filesize: '10'
+  max_filesize: '10 MB'
   max_resolution: ''
   min_resolution: ''
   alt_field: false

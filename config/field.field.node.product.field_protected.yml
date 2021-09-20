@@ -1,4 +1,4 @@
-uuid: af70c9d1-1e2e-4c8b-9a9b-bc8e142bd808
+uuid: 8180443e-38f1-4c69-9efb-4f0b8c7ba02b
 langcode: en
 status: true
 dependencies:
@@ -10,8 +10,8 @@ field_name: field_protected
 entity_type: node
 bundle: product
 label: Protected
-description: "If a product is protected, this means that the user will not see the detail of the product\r\nunless it accepts the disclaimer page and this should occur once, depending on the\r\nbrowser cookies."
-required: true
+description: ''
+required: false
 translatable: false
 default_value:
   -

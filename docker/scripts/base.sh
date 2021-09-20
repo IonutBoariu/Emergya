@@ -37,5 +37,8 @@ cd web
 printf "\n- Import Configurations -\n\n";
 drush config-import -y --partial
 
+printf  "\n- Generate Product content types -\n"
+drush genc 10 --bundles product
+
 printf "\n- Drush commands have finished processing -\n";
 

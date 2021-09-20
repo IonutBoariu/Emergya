@@ -11,6 +11,8 @@ module:
   cookie_content_blocker: 0
   currency: 0
   dblog: 0
+  devel: 0
+  devel_generate: 0
   editor: 0
   field: 0
   field_ui: 0

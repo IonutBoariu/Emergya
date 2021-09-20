@@ -1,4 +1,4 @@
-uuid: b156cc67-da28-4db6-af85-034cb07bbbab
+uuid: b51eea8f-7f91-4b4d-a2a9-216e830bd563
 langcode: en
 status: true
 dependencies:
@@ -13,13 +13,11 @@ label: Quantity
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    value: 1
+default_value: {  }
 default_value_callback: ''
 settings:
   min: 0
-  max: null
+  max: 9999
   prefix: ''
   suffix: ''
 field_type: integer
